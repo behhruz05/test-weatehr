@@ -1,11 +1,12 @@
-const CACHE_NAME = "obhavo-v1";
+const CACHE_NAME = "obhavo-v2";
 
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/main.js",
-  "/icon-192.png",
-  "/icon-512.png"
+  "./",
+  "./index.html",
+  "./main.js",
+  "./icon-192.png",
+  "./icon-512.png",
+  "./manifest.json"
 ];
 
 self.addEventListener("install", (event) => {
